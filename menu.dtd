@@ -1,0 +1,22 @@
+
+<!ELEMENT group ( group | head | item1 | item2 )* >
+
+
+<!ELEMENT head ( #PCDATA ) >
+<!ATTLIST head href NMTOKEN #IMPLIED >
+
+
+
+<!ELEMENT item1 ( #PCDATA ) >
+<!ATTLIST item1 href NMTOKEN #IMPLIED >
+
+
+
+<!ELEMENT item2 ( #PCDATA ) >
+<!ATTLIST item2 href NMTOKEN #REQUIRED >
+
+
+
+<!ELEMENT menu ( group | head | qroup )* >
+
+<!ELEMENT qroup ( head, item1+ ) >

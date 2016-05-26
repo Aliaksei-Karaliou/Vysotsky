@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="songs">
+    <xs:complexType>
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="song" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="song">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="number" />
+        <xs:element ref="year" />
+        <xs:element ref="minutes" />
+        <xs:element ref="tags" />
+      </xs:choice>
+      <xs:attribute name="title" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="number" type="xs:int" />
+  <xs:element name="year">
+    <xs:simpleType>
+      <xs:restriction base="xs:int">
+        <xs:minInclusive value="1939"/>
+        <xs:maxInclusive value="1980"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="minutes" type="xs:decimal" />
+  <xs:element name="tags" type="tagList"/>
+  <xs:simpleType name="tagList">
+    <xs:list itemType="xs:string"/>
+  </xs:simpleType>
+</xs:schema>

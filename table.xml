@@ -1,0 +1,33 @@
+﻿<!DOCTYPE songs [
+		<!ELEMENT songs (song)*>
+		<!ELEMENT song (number|year|minutes|tags)*>
+		<!ATTLIST song
+				title CDATA #REQUIRED>
+		<!ELEMENT number (#PCDATA)>
+		<!ELEMENT year (#PCDATA)>
+		<!ELEMENT minutes (#PCDATA)>
+		<!ELEMENT tags (#PCDATA)>
+		]>
+<?xml-stylesheet type="text/xsl" href="table.xsl"?>
+<songs>
+	<song title="Утренняя гимнастика">
+		<year>1968</year>
+		<minutes>1.58</minutes>
+    <tags>Утро зарядка</tags>
+	</song>
+	<song title="Охота на волков">
+		<year>1968</year>
+		<minutes>3.05</minutes>
+    <tags>Борьба смелость</tags>
+	</song>
+	<song title="Письмо в редакцию телевизионной передачи 'Очевидное - невероятное' из сумасшедшего в дома - с Канатчиковой дачи">
+		<year>1977</year>
+		<minutes>3.42</minutes>
+    <tags>Бермуды Дурдом Треугольник</tags>
+	</song>
+		<song title="Лирическая">
+		<year>1970</year>
+		<minutes>3.57</minutes>
+    <tags>Любовь</tags>
+	</song>
+</songs>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" ?>
+<menu>
+			<item href="index.html" value="Главная"></item>
+			<item value="Биография">
+				<item1 href="childhood.html" value="Детство"></item1>
+				<item1 href="first-poet.html" value="Начало поэтической деятельности"></item1>
+				<item1 href="middle-poet.html" value="Зрелые годы"></item1>
+				<item1 href="late-poet.html" value="Последние годы"></item1></item>
+			<item value="Жены и дети">
+				<item1 value="Жены">
+					<item2 href="wife-Iza.html" value="Иза Константиновна Высоцкая"></item2>
+					<item2 href="wife-Lyudmila.html" value="Людмила Владимировна Абрамова"></item2>
+					<item2 href="wife-Marina.html" value="Марина Влади"></item2></item1>
+				<item1 value="Дети">
+					<item2 href="child-Arkady.html" value="Аркадий Владимирович Высоцкий"></item2>
+					<item2 href="child-Nikita.html" value="Никита Владимирович Высоцкий"></item2></item1></item>
+			<item href="auto.html" value="Автомобили Владимира Высоцкого"></item>
+			<item value="Некоторые песни (Тексты и аккорды)">
+				<item1 href="song-gimnastics.html" value="Утренная гимнастика"></item1>
+				<item1 href="song-hunting.html" value="Охота на волков"></item1>
+				<item1 href="song-letter.html" value='Письмо в редакцию телевизионной передачи "Очевидное - невероятное" из сумасшедшего дома - с Канатчиковой дачи'></item1>
+				<item1 href="song-lyrical.html" value="Лирическая"></item1></item>
+			<item href="discs.html" value="Дискография Владимира Высоцкого"></item>
+			<item href="table.xml" value="Лабораторная №9"></item>
+</menu>
