@@ -1,0 +1,23 @@
+﻿<menu>
+			<head href="index.html">Главная</head>
+			<group><head>Биография</head>
+				<item1 href="childhood.html">Детство</item1>
+				<item1 href="first-poet.html">Начало поэтической деятельности</item1>
+				<item1 href="middle-poet.html"> Зрелые годы</item1>
+				<item1 href="late-poet.html">Последние годы</item1></group>
+			<group><head>Жены и дети</head>
+				<group><item1>Жены</item1>
+					<item2 href="wife-Iza.html">Иза Константиновна Высоцкая</item2>
+					<item2 href="wife-Lyudmila.html">Людмила Владимировна Абрамова</item2>
+					<item2 href="wife-Marina.html"> Марина Влади</item2></group>
+				<group><item1>Дети</item1>
+					<item2 href="child-Arkady.html">Аркадий Владимирович Высоцкий</item2>
+					<item2 href="child-Nikita.html">Никита Владимирович Высоцкий</item2></group></group>
+			<head href="auto.html"> Автомобили Владимира Высоцкого</head>
+			<qroup><head>Некоторые песни (Тексты и аккорды)</head>
+				<item1 href="song-gimnastics.html">Утренная гимнастика</item1>
+				<item1 href="song-hunting.html">Охота на волков</item1>
+				<item1 href="song-letter.html">Письмо в редакцию телевизионной передачи "Очевидное - невероятное" из сумасшедшего дома - с Канатчиковой дачи</item1>
+				<item1 href="song-lyrical.html">Лирическая</item1></qroup>
+			<head href="discs.html">Дискография Владимира Высоцкого</head>
+</menu>

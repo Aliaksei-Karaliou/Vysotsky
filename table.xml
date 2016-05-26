@@ -1,9 +1,8 @@
 ﻿<!DOCTYPE songs [
 		<!ELEMENT songs (song)*>
-		<!ELEMENT song (number|year|minutes|tags)*>
+		<!ELEMENT song (year?|minutes?|tags?)*>
 		<!ATTLIST song
 				title CDATA #REQUIRED>
-		<!ELEMENT number (#PCDATA)>
 		<!ELEMENT year (#PCDATA)>
 		<!ELEMENT minutes (#PCDATA)>
 		<!ELEMENT tags (#PCDATA)>

@@ -1,4 +1,19 @@
 ﻿<?xml version="1.0" ?>
+<!DOCTYPE menu [
+		<!ELEMENT menu (item)*>
+		<!ELEMENT item (item1)*>
+		<!ATTLIST item
+				href CDATA #IMPLIED
+				value CDATA #REQUIRED>
+		<!ELEMENT item1 (item2)*>
+		<!ATTLIST item1
+				href CDATA #IMPLIED
+				value CDATA #REQUIRED>
+		<!ELEMENT item2 (#PCDATA)>
+		<!ATTLIST item2
+				href CDATA #REQUIRED
+				value CDATA #REQUIRED>
+		]>
 <menu>
 			<item href="index.html" value="Главная"></item>
 			<item value="Биография">

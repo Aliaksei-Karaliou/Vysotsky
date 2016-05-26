@@ -116,8 +116,8 @@ xmlns:math="http://exslt.org/math" exclude-result-prefixes="math">
             <br/>
 			В минутах:<br/>
             5. Суммарная длительность              = <xsl:value-of select="sum(//minutes)"/><br/>
-            6. Длительность самой короткой песни   = <xsl:value-of select="math:max(//minutes)"/><br/>
-            6. Длительность самой длинной песни    = <xsl:value-of select="math:min(//minutes)"/><br/>
+            6. Длительность самой длинной песни   = <xsl:value-of select="math:max(//minutes)"/><br/>
+            6. Длительность самой короткой песни    = <xsl:value-of select="math:min(//minutes)"/><br/>
             7. Средняя длительность                = <xsl:value-of select="sum(//minutes) div count(//minutes)"/> <br/>
 			</td></tr></table>
         </body>  
